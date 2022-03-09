@@ -46,9 +46,6 @@ PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
-# ArrowOS Properties
-DEVICE_MAINTAINER := Baddar90
-
 BUILD_FINGERPRINT := "samsung/crownltexx/crownlte:10/QP1A.190711.020/N960FXXU9FUK1:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
