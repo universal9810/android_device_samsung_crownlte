@@ -28,10 +28,14 @@ TARGET_SCREEN_HEIGHT := 2960
 TARGET_SCREEN_WIDTH := 1440
 
 ## Inherit some common Lineage stuff
-$(call inherit-product, vendor/arrow/config/common.mk)
+$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
+
+# Custom stuff
+TARGET_FACE_UNLOCK_SUPPORTED := true
+USE_PIXEL_CHARGER := true
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_NAME := arrow_crownlte
+PRODUCT_NAME := octavi_crownlte
 PRODUCT_DEVICE := crownlte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-N960F
