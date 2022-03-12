@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_crownlte.mk
+    $(LOCAL_DIR)/krypton_crownlte.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_crownlte-eng \
-    arrow_crownlte-user \
-    arrow_crownlte-userdebug
+    krypton_crownlte-eng \
+    krypton_crownlte-user \
+    krypton_crownlte-userdebug
