@@ -29,6 +29,7 @@ TARGET_SCREEN_WIDTH := 1440
 
 ## Inherit some common DerpFest stuff
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
+DERP_BUILDTYPE := Official
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_NAME := derp_crownlte
@@ -38,9 +39,6 @@ PRODUCT_MODEL := SM-N960F
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
-
-# ArrowOS Properties
-DEVICE_MAINTAINER := Baddar90
 
 BUILD_FINGERPRINT := "samsung/crownltexx/crownlte:10/QP1A.190711.020/N960FXXU9FUK1:user/release-keys"
 
