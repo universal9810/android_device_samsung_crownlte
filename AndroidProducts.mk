@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_crownlte.mk
+    $(LOCAL_DIR)/palladium_crownlte.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_crownlte-eng \
-    arrow_crownlte-user \
-    arrow_crownlte-userdebug
+    palladium_crownlte-eng \
+    palladium_crownlte-user \
+    palladium_crownlte-userdebug
