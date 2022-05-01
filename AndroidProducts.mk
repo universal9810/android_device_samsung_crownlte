@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_crownlte.mk
+    $(LOCAL_DIR)/omni_crownlte.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_crownlte-eng \
-    arrow_crownlte-user \
-    arrow_crownlte-userdebug
+    omni_crownlte-eng \
+    omni_crownlte-user \
+    omni_crownlte-userdebug
